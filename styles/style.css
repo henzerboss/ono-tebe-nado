@@ -4,51 +4,41 @@
   height: 105px;
   margin: 92px 24px;
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   font-size: 18px;
-}
-
-.header__menu {
-  
 }
 
 .header__links-list {
   list-style: circle;
   display: flex;
-  gap: 25px;
+  gap: 28px;
   justify-content: center;
+  margin: 4px 0 0 -4px;
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none;
+  list-style: none;
 }
 
 .header__links-list-item {
-  
+  padding-left: 4px;
+  letter-spacing: 0.01rem;
 }
 
 .header__link_active {
-    border-bottom: none; 
-}
-
-.header__link {
-
+  border-bottom: none;
 }
 
 .header__logo {
   display: block;
   height: 105px;
   width: 148px;
-  border-bottom: none; 
+  border-bottom: none;
 }
 
 .header__logo-image {
-    height: 105px;
-}
-
-.header__address {
-
+  height: 105px;
 }
 
 .address {
