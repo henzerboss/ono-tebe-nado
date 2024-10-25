@@ -52,7 +52,6 @@
   position: relative;
   background-image: url(../images/cover.jpg);
   padding: 165px 50px 236px;
-  position: relative;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -216,9 +215,6 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   padding: 35px 24px 0;
-}
-
-.about__column {
 }
 
 .about__logo {
